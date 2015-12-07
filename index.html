@@ -222,7 +222,7 @@ function printTable(){
 			cell4.innerHTML = tasks[i].dateDue;
 			cell5.appendChild(btn);
 			
-			var keyinput = "allTasks1";
+			var keyinput = "allTasks";
 			if(typeof(window.localStorage) != "undefined"){
 				window.localStorage.setItem(keyinput, JSON.stringify(tasks));
 			}
